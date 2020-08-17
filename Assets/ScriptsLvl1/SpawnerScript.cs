@@ -18,11 +18,12 @@ public class SpawnerScript : MonoBehaviour
     public int SRandNegX;
     public int SRandY;
     public int SRandNegY;
-
-    public GameObject[] Enemies;
-
     public int ERand;
 
+    public float spawnRate;
+
+    public GameObject[] Enemies;
+    
     public GameObject SelectedEnemy;
     // Start is called before the first frame update
     void Start()
@@ -33,10 +34,10 @@ public class SpawnerScript : MonoBehaviour
         SpawnerNegY = GameObject.FindGameObjectsWithTag("Spawner-Y");
 
 
-        InvokeRepeating("PositiveX", 1, 1.5f);
-        InvokeRepeating("NegativeX", 1, 1.5f);
-        InvokeRepeating("PositiveY", 1, 1.5f);
-        InvokeRepeating("NegativeY", 1, 1.5f);
+        InvokeRepeating("PositiveX", 1, spawnRate);
+        InvokeRepeating("NegativeX", 1, spawnRate);
+        InvokeRepeating("PositiveY", 1, spawnRate);
+        InvokeRepeating("NegativeY", 1, spawnRate);
     }
         // Update is called once per frame
     void Update()
