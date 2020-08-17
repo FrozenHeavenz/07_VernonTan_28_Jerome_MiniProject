@@ -29,4 +29,18 @@ public class PlayerScript : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "Enemy")
+        {
+            GameManager.Hp -= 1;
+            Destroy(col.gameObject);
+        }
+        if(col.gameObject.tag == "Points")
+        {
+            GameManager.Score += 1;
+            Destroy(col.gameObject);
+        }
+    }
 }

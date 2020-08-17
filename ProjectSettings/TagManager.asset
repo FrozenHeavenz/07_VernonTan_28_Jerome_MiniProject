@@ -9,6 +9,7 @@ TagManager:
   - SpawnerY
   - Spawner-Y
   - Enemy
+  - Points
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9032111364356171188}
   - component: {fileID: 9032111364356171191}
+  - component: {fileID: 1214190604}
+  - component: {fileID: 648603028713656987}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -61,3 +63,44 @@ MonoBehaviour:
   - {fileID: 3682296777367768158, guid: 88759a4852ae010428a1a79fe612e10b, type: 3}
   ERand: 0
   SelectedEnemy: {fileID: 0}
+--- !u!114 &1214190604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9032111364356171190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b202a63d3af3182428a6725f9b24e598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnerX: []
+  SpawnerNegX: []
+  SpawnerY: []
+  SpawnerNegY: []
+  SelectedSpawnerX: {fileID: 0}
+  SelectedSpawnerNegX: {fileID: 0}
+  SelectedSpawnerY: {fileID: 0}
+  SelectedSpawnerNegY: {fileID: 0}
+  SRandX: 0
+  SRandNegX: 0
+  SRandY: 0
+  SRandNegY: 0
+  Point: {fileID: 3267752486080094660, guid: a4f3cb82aac72e44ebbb22f3b200c80e, type: 3}
+  ERand: 0
+  SelectSide: 0
+--- !u!114 &648603028713656987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9032111364356171190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346453f28017b53438b98dda56b68dfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score_txt: {fileID: 0}
+  Hp_Txt: {fileID: 0}
