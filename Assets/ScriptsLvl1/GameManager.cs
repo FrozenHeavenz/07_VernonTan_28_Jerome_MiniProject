@@ -70,8 +70,12 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             nextLevelUI.SetActive(true);
-            NextScene();
         }
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene("GameSceneLvl2");
     }
 
     public void healthCheck()
@@ -81,11 +85,6 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0;
             gameOverUI.SetActive(true);
         }
-    }
-
-    public void NextScene()
-    {
-        SceneManager.LoadScene(sceneName);
     }
 
     public void Resume()

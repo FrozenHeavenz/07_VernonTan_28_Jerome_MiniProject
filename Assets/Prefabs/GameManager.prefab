@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 346453f28017b53438b98dda56b68dfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Main Menu
+  sceneName: GameSceneLvl2
   transAni: {fileID: 0}
   Score_txt: {fileID: 0}
   Hp_Txt: {fileID: 0}
