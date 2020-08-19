@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 448}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 132
+  controlID: 80
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 30
+  controlID: 113
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 566
     width: 1377
     height: 536
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -477,7 +477,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.07031933, y: -0.8948021, z: 0.15204223, w: 0.41384482}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -618,9 +618,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 8c230000
       m_LastClickedID: 0
-      m_ExpandedIDs: 6ac6ffff24ceffff06cfffff92d5ffff80d6ffff3ad7ffff90d9ffff2ee3ffff5ce3ffff8ee3ffffa6f5ffff9cfaffffdc2b00009a330000d03300003239000070390000743c0000c23e0000c4470000
+      m_ExpandedIDs: 06f2ffffccf3ffff74faffff042c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -694,7 +694,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f8280000
     m_LastClickedID: 10488
-    m_ExpandedIDs: 00000000b2280000bc280000da2800003029000084290000e4290000fe290000502a0000aa2a0000
+    m_ExpandedIDs: 00000000ba280000c4280000e22800003e29000096290000fa290000142a0000662a0000c02a0000e62a0000042b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,21 +722,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b2280000bc280000da2800003029000084290000e4290000fe290000502a0000aa2a0000362c00004e2c0000
+    m_ExpandedIDs: ffffffff00000000ba280000c4280000e22800003e29000096290000fa290000142a0000662a0000c02a0000e62a0000042b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EnemyR
-      m_OriginalName: EnemyR
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10362
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
