@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pauseMenuUI.SetActive(false);
         gameOverUI.SetActive(false);
         nextLevelUI.SetActive(false);
         Time.timeScale = 1;
@@ -32,6 +33,23 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameIsPaused = !GameIsPaused;
+        }
+
+        if(GameIsPaused)
+        {
+            Pause();
+        }
+
+        else
+        {
+            Resume();
+        }
+
+        ScoreCheck();
+        healthCheck();
         Updatehealth();
         Updatescore();
     }
@@ -48,12 +66,11 @@ public class GameManager : MonoBehaviour
 
     public void ScoreCheck()
     {
-        if(Score >= 15)
+        if(Score == 15)
         {
-            StartCoroutine(Transistion());
             Time.timeScale = 0;
             nextLevelUI.SetActive(true);
-            SceneManager.LoadScene("GameSceneLvl2");
+            NextScene();
         }
     }
 
@@ -61,11 +78,14 @@ public class GameManager : MonoBehaviour
     {
         if(Hp <= 0)
         {
-            StartCoroutine(Transistion());
             Time.timeScale = 0;
             gameOverUI.SetActive(true);
-            SceneManager.LoadScene(sceneName);
         }
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(sceneName);
     }
 
     public void Resume()
@@ -84,12 +104,23 @@ public class GameManager : MonoBehaviour
         GameIsPaused = true;
     }
 
+    public void Menu()
+    {   
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+        StartCoroutine(Transistion());
+    }
 
     IEnumerator Transistion()
     {
         transAni.SetTrigger("end");
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("MainMenu");
     }
-
+    
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
