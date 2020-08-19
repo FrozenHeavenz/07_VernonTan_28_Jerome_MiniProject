@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  speed: 5
+  speed: 7
   step: 0
   SpawnPos: {x: 0, y: 0, z: 0}
 --- !u!50 &5185524882890081465

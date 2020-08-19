@@ -57,11 +57,12 @@ MonoBehaviour:
   SRandNegX: 0
   SRandY: 0
   SRandNegY: 0
+  ERand: 0
+  spawnRate: 1.5
   Enemies:
   - {fileID: 2561028702213426129, guid: 1354a6fd0700e5f4c8c780d8646505b7, type: 3}
   - {fileID: 5785303165237383500, guid: 9c106e7bac1a53849bc95c8af645934d, type: 3}
   - {fileID: 3682296777367768158, guid: 88759a4852ae010428a1a79fe612e10b, type: 3}
-  ERand: 0
   SelectedEnemy: {fileID: 0}
 --- !u!114 &1214190604
 MonoBehaviour:
@@ -102,5 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 346453f28017b53438b98dda56b68dfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
+  transAni: {fileID: 0}
   Score_txt: {fileID: 0}
   Hp_Txt: {fileID: 0}
