@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PointSpawnerScript : MonoBehaviour
 {
+    public static int ERand;
+    public int SelectSide;
+
     public GameObject[] SpawnerX;
     public GameObject[] SpawnerNegX;
     public GameObject[] SpawnerY;
@@ -21,8 +24,6 @@ public class PointSpawnerScript : MonoBehaviour
 
     public GameObject Point;
 
-    public int ERand;
-    public int SelectSide;
     // Start is called before the first frame update
     void Start()
     {

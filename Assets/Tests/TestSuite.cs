@@ -10,20 +10,21 @@ namespace Tests
     {
         private GameObject GameLvl1;
         private GameObject GameLvl2;
+        private GameObject MainMenu;
 
 
         [SetUp]
         public void SetUp()
         {
             GameLvl1 = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/GameLvl1"));
-            
+            MainMenu = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/MainMenu"));
         }
 
         [TearDown]
         public void TearDown()
         {
             Object.Destroy(GameLvl1);
-
+            Object.Destroy(MainMenu);
         }
 
         [UnityTest]
@@ -120,6 +121,37 @@ namespace Tests
             spawnedObject.transform.position = player.transform.position;
 
             Assert.Less(GameManager.Hp, initialHealth);
+        }
+
+        [UnityTest]
+        public IEnumerator CheckPointsIncrease()
+        {
+            PointSpawnerScript pointSpawnerScript = GameObject.Find("GameManager").GetComponent<PointSpawnerScript>();
+
+            PointSpawnerScript.ERand = 7;
+
+            GameObject point = GameObject.FindGameObjectWithTag("Points");
+            GameObject Player = GameObject.FindGameObjectWithTag("Player");
+
+            yield return new WaitForSeconds(2f);
+            float initialPoints = 0;
+
+            point.transform.position = Player.transform.position;
+
+            yield return new WaitForSeconds(1f);
+            Assert.Greater(GameManager.Score, initialPoints);
+        }
+
+        [UnityTest]
+        public IEnumerator MainMenuCheck()
+        {
+            MainMenu menuCheck = GameObject.Find("GameManagerMenu").GetComponent<MainMenu>();
+            GameManager gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+            yield return new WaitForSeconds(2f);
+
+            GameManager.IsGameOver = true;
+
+            Assert.IsTrue(GameManager.IsGameOver);
         }
     }
 }

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 398}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 2194
     height: 1102
-  m_MinSize: {x: 917, y: 348}
-  m_MaxSize: {x: 22012, y: 10024}
+  m_MinSize: {x: 913, y: 348}
+  m_MaxSize: {x: 22008, y: 10024}
   vertical: 0
-  controlID: 33
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 348}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 34
+  controlID: 32
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,9 +160,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1479
-    height: 124
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
+    height: 612
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
@@ -187,9 +187,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 124
+    y: 612
     width: 1479
-    height: 978
+    height: 490
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
@@ -217,8 +217,8 @@ MonoBehaviour:
     y: 0
     width: 204
     height: 1102
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -299,7 +299,7 @@ MonoBehaviour:
     x: 0
     y: 72.571434
     width: 1477
-    height: 104
+    height: 592
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
@@ -309,7 +309,7 @@ MonoBehaviour:
       name: 07_VernonTan_28_Jerome_MiniProject
       fullName: 07_VernonTan_28_Jerome_MiniProject
       resultStatus: 2
-      duration: 14.823797
+      duration: 19.024435
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -323,7 +323,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 14.772594
+      duration: 18.96391
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -337,7 +337,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 14.747588
+      duration: 18.931196
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -351,7 +351,7 @@ MonoBehaviour:
       name: TestSuite
       fullName: Tests.TestSuite
       resultStatus: 2
-      duration: 14.719671
+      duration: 18.903982
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -364,15 +364,11 @@ MonoBehaviour:
     - id: '[Tests][Tests.TestSuite.CheckForBlueEnemyCollision]'
       name: CheckForBlueEnemyCollision
       fullName: Tests.TestSuite.CheckForBlueEnemyCollision
-      resultStatus: 2
-      duration: 2.1660495
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 2.1675494
+      messages: 
       output: 
-      stacktrace: "  at Tests.TestSuite+<CheckForBlueEnemyCollision>d__9.MoveNext
-        () [0x00080] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:104
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
-        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -384,7 +380,7 @@ MonoBehaviour:
       name: CheckForGreenEnemyCollision
       fullName: Tests.TestSuite.CheckForGreenEnemyCollision
       resultStatus: 1
-      duration: 2.0846434
+      duration: 2.0869095
       messages: 
       output: 
       stacktrace: 
@@ -399,7 +395,7 @@ MonoBehaviour:
       name: CheckForRedEnemyCollision
       fullName: Tests.TestSuite.CheckForRedEnemyCollision
       resultStatus: 1
-      duration: 2.0862806
+      duration: 2.0865726
       messages: 
       output: 
       stacktrace: 
@@ -414,7 +410,7 @@ MonoBehaviour:
       name: CheckForSpawningNegativeX
       fullName: Tests.TestSuite.CheckForSpawningNegativeX
       resultStatus: 1
-      duration: 2.0858545
+      duration: 2.088528
       messages: 
       output: 
       stacktrace: 
@@ -429,7 +425,7 @@ MonoBehaviour:
       name: CheckForSpawningNegativeY
       fullName: Tests.TestSuite.CheckForSpawningNegativeY
       resultStatus: 1
-      duration: 2.0868995
+      duration: 2.0899682
       messages: 
       output: 
       stacktrace: 
@@ -444,7 +440,7 @@ MonoBehaviour:
       name: CheckForSpawningPositiveX
       fullName: Tests.TestSuite.CheckForSpawningPositiveX
       resultStatus: 1
-      duration: 2.086239
+      duration: 2.0867758
       messages: 
       output: 
       stacktrace: 
@@ -459,7 +455,7 @@ MonoBehaviour:
       name: CheckForSpawningPositiveY
       fullName: Tests.TestSuite.CheckForSpawningPositiveY
       resultStatus: 1
-      duration: 2.0868044
+      duration: 2.086621
       messages: 
       output: 
       stacktrace: 
@@ -470,12 +466,46 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Tests][Tests.TestSuite][suite]'
-    m_ResultText: CheckForRedEnemyCollision (2.086s)
+    - id: '[Tests][Tests.TestSuite.CheckPointsIncrease]'
+      name: CheckPointsIncrease
+      fullName: Tests.TestSuite.CheckPointsIncrease
+      resultStatus: 2
+      duration: 2.0870564
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Tests.TestSuite+<CheckPointsIncrease>d__12.MoveNext () [0x00094]
+        in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:139
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.MainMenuCheck]'
+      name: MainMenuCheck
+      fullName: Tests.TestSuite.MainMenuCheck
+      resultStatus: 1
+      duration: 2.0858414
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    m_ResultText: MainMenuCheck (2.086s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba889d3e
-      m_LastClickedID: 1050511546
+      m_SelectedIDs: 5ecedc35
+      m_LastClickedID: 903663198
       m_ExpandedIDs: fc24e9843223a8c3d26cb0e23beef202ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -643,7 +673,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -74500
+  m_LastSelectedObjectID: 11670
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -702,8 +732,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.571434
-    width: 443
-    height: 546
+    width: 1477
+    height: 592
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 0f844558d5ccf674e8a0adb4b32ad1a3
   m_SceneLighting: 1
@@ -807,9 +837,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 196.57144
+    y: 684.5715
     width: 1477
-    height: 958
+    height: 470
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -821,10 +851,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -738.50006
-    m_HBaseRangeMax: 738.50006
-    m_VBaseRangeMin: -415.4286
-    m_VBaseRangeMax: 415.4286
+    m_HBaseRangeMin: -402.57144
+    m_HBaseRangeMax: 402.57144
+    m_VBaseRangeMin: -226.50002
+    m_VBaseRangeMax: 226.50002
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -843,9 +873,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 1477
-      height: 941
+      height: 453
     m_Scale: {x: 0.99999994, y: 0.99999994}
-    m_Translation: {x: 738.5, y: 470.5}
+    m_Translation: {x: 738.5, y: 226.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -853,14 +883,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -738.50006
-      y: -470.50003
+      y: -226.50002
       width: 1477.0001
-      height: 941.00006
+      height: 453.00003
     m_MinimalGUI: 1
   m_defaultScale: 0.99999994
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2584.75, y: 1676.5}
+  m_LastWindowPixelSize: {x: 2584.75, y: 822.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -894,9 +924,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: be5efeff
-      m_LastClickedID: -106818
-      m_ExpandedIDs: ce5efeffd05efeff9860feff9a60feff3263feff3463feff0a80feffac81feffca81feff148ffeffd890fefff690feff809efeff50a0feff6ea0feff04b0feffecb1feff0ab2feff1cc2feffecc3feff0ac4feff5acefeff32d0feff50d0feff72dafeff28ddfeff2addfeff32ddfeff50ddfeffdee0feff2ce7feff4ae7feff1eeffeff22f1feff40f1feff6cf3feff7ef5feff9cf5feffcef7feff8af9feffa8f9feffbafbfeff84fdfeffa2fdfeff6601ffff4c0affff6c0affff7219ffff0a1affff9a66ffffd0d2ffffd2d2ffff4ad9ffffccdaffffcedaffff6adeffff6adfffff6cdfffff42e4ffff7aecffff36f6fffff4f6ffff1af7ffff3cf7ffff76f7ffff9cfbffff9efbffffa23200000037000038390000443a0000a03b0000ac3c000066400000fe40000036580000c8580000
+      m_SelectedIDs: 4e220000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6205ffff8005ffff8819ffff001cffff7e1fffff9c1fffff7c21ffff3022ffffe423ffff0224ffff3433ffffb034ffffce34ffffd841ffff6843ffff8643ffffa852ffff8854ffffa654ffff7e68ffff84b5ffffaeb5ffffeeb5fffffcb5ffff58b6ffff38b8ffff56b8ffffc4c7ffff52c9ffff70c9ffffa8d8ffff36daffff54daffff16e9ffff00ecffff02ecffff20ecffffb8f9ffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -958,7 +988,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/ScriptsLvl1
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -970,7 +1000,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f8280000
     m_LastClickedID: 10488
-    m_ExpandedIDs: 00000000242900002e2900004c290000a2290000fc290000602a00007a2a0000cc2a0000282b00004e2b00006c2b0000
+    m_ExpandedIDs: 000000000c280000162800001a2800003628000098280000dc280000f8280000342900008a290000e4290000842a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -998,18 +1028,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000242900002e2900004c290000a2290000fc2900007a2a0000cc2a0000a0410000ba860000ee860000d0880000
+    m_ExpandedIDs: ffffffff000000000c280000162800003628000098280000dc280000f8280000e4290000842a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameScene
-      m_OriginalName: GameScene
+      m_Name: MainMenu
+      m_OriginalName: MainMenu
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10988
+      m_UserData: 9968
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
