@@ -9,9 +9,14 @@ public class PlayerScript : MonoBehaviour
     private Vector2 direction;
     private float moveSpeed = 100f;
 
+    ParticleSystemRenderer particleSys;
+    public GameObject particle;
+    public Material[] mat;
+
     // Use this for initialization
     void Start()
     {
+        particleSys = GetComponent<ParticleSystemRenderer>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -34,11 +39,38 @@ public class PlayerScript : MonoBehaviour
     {
         if(col.gameObject.tag == "Enemy")
         {
+            GameObject spark = Instantiate(particle, col.transform.position, col.transform.rotation) as GameObject;
             GameManager.Hp -= 1;
+            particleSys = spark.GetComponent<ParticleSystemRenderer>();
+            particleSys.material = mat[0];
+
             Destroy(col.gameObject);
         }
-        if(col.gameObject.tag == "Points")
+
+        else if (col.gameObject.tag == "Enemy1")
         {
+            GameObject spark = Instantiate(particle, col.transform.position, col.transform.rotation) as GameObject;
+            GameManager.Hp -= 1;
+            particleSys = spark.GetComponent<ParticleSystemRenderer>();
+            particleSys.material = mat[1];
+
+            Destroy(col.gameObject);
+        }
+
+        else if (col.gameObject.tag == "Enemy2")
+        {
+            GameObject spark = Instantiate(particle, col.transform.position, col.transform.rotation) as GameObject;
+            GameManager.Hp -= 1;
+            particleSys = spark.GetComponent<ParticleSystemRenderer>();
+            particleSys.material = mat[2];
+
+            Destroy(col.gameObject);
+        }
+        if (col.gameObject.tag == "Points")
+        {
+            GameObject spark = Instantiate(particle, col.transform.position, col.transform.rotation) as GameObject;
+            particleSys = spark.GetComponent<ParticleSystemRenderer>();
+            particleSys.material = mat[3];
             GameManager.Score += 1;
             Destroy(col.gameObject);
         }

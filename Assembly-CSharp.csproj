@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\ScriptsLvl1\BoundaryScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\CameraScript.cs" />
+    <Compile Include="Assets\ScriptsLvl1\DestroyExplosion.cs" />
     <Compile Include="Assets\ScriptsLvl1\EnemyScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\EnemyScriptLvl2.cs" />
     <Compile Include="Assets\ScriptsLvl1\GameManager.cs" />
+    <Compile Include="Assets\ScriptsLvl1\MainMenu.cs" />
     <Compile Include="Assets\ScriptsLvl1\ParallaxScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\PlayerScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\PointScript.cs" />

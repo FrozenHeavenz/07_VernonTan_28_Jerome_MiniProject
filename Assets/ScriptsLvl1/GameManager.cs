@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     public bool pause = false;
     public bool GameIsPaused = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
         healthCheck();
         Updatehealth();
         Updatescore();
+
     }
 
     public void Updatehealth()
@@ -80,7 +82,7 @@ public class GameManager : MonoBehaviour
 
     public void healthCheck()
     {
-        if(Hp <= 0)
+        if(Hp == 0)
         {
             Time.timeScale = 0;
             gameOverUI.SetActive(true);
@@ -104,10 +106,13 @@ public class GameManager : MonoBehaviour
     }
 
     public void Menu()
-    {   
-        pauseMenuUI.SetActive(false);
+    {
+        pause = false;
+        GameIsPaused = false;   
+        gameOverUI.SetActive(false);
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        GameManager.Score = 0;
+        GameManager.Hp = 20;
         StartCoroutine(Transistion());
     }
 
@@ -122,4 +127,6 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+
 }
