@@ -153,5 +153,16 @@ namespace Tests
 
             Assert.IsTrue(GameManager.IsGameOver);
         }
+
+        [UnityTest]
+        public IEnumerator RestartCheck()
+        {
+            GameManager gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+            yield return new WaitForSeconds(2f);
+
+            GameManager.IsRestartTrue = true;
+
+            Assert.IsTrue(GameManager.IsRestartTrue);
+        }
     }
 }

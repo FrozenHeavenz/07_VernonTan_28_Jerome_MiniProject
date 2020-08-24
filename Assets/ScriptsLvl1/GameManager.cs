@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static bool IsRestartTrue = false;
     public static bool IsGameOver = false;
     public static int Score;
     public static int Hp;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        IsRestartTrue = false;
         pauseMenuUI.SetActive(false);
         gameOverUI.SetActive(false);
         nextLevelUI.SetActive(false);
@@ -126,6 +128,7 @@ public class GameManager : MonoBehaviour
     
     public void Restart()
     {
+        IsRestartTrue = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

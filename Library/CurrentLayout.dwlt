@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 398}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 2194
     height: 1102
-  m_MinSize: {x: 913, y: 348}
-  m_MaxSize: {x: 22008, y: 10024}
+  m_MinSize: {x: 917, y: 448}
+  m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 107
+  controlID: 62
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1479
     height: 1102
-  m_MinSize: {x: 202, y: 348}
+  m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 32
+  controlID: 63
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,16 +161,16 @@ MonoBehaviour:
     y: 0
     width: 1479
     height: 612
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,8 +217,8 @@ MonoBehaviour:
     y: 0
     width: 204
     height: 1102
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -309,7 +309,7 @@ MonoBehaviour:
       name: 07_VernonTan_28_Jerome_MiniProject
       fullName: 07_VernonTan_28_Jerome_MiniProject
       resultStatus: 2
-      duration: 19.024435
+      duration: 21.294682
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -323,7 +323,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 18.96391
+      duration: 21.229603
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -337,7 +337,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 18.931196
+      duration: 21.195213
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -351,7 +351,7 @@ MonoBehaviour:
       name: TestSuite
       fullName: Tests.TestSuite
       resultStatus: 2
-      duration: 18.903982
+      duration: 21.158163
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -364,11 +364,15 @@ MonoBehaviour:
     - id: '[Tests][Tests.TestSuite.CheckForBlueEnemyCollision]'
       name: CheckForBlueEnemyCollision
       fullName: Tests.TestSuite.CheckForBlueEnemyCollision
-      resultStatus: 1
-      duration: 2.1675494
-      messages: 
+      resultStatus: 2
+      duration: 2.338778
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
       output: 
-      stacktrace: 
+      stacktrace: "  at Tests.TestSuite+<CheckForBlueEnemyCollision>d__10.MoveNext
+        () [0x00080] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:105
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -379,11 +383,15 @@ MonoBehaviour:
     - id: '[Tests][Tests.TestSuite.CheckForGreenEnemyCollision]'
       name: CheckForGreenEnemyCollision
       fullName: Tests.TestSuite.CheckForGreenEnemyCollision
-      resultStatus: 1
-      duration: 2.0869095
-      messages: 
+      resultStatus: 2
+      duration: 2.0869973
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
       output: 
-      stacktrace: 
+      stacktrace: "  at Tests.TestSuite+<CheckForGreenEnemyCollision>d__11.MoveNext
+        () [0x00080] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:121
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -395,7 +403,7 @@ MonoBehaviour:
       name: CheckForRedEnemyCollision
       fullName: Tests.TestSuite.CheckForRedEnemyCollision
       resultStatus: 1
-      duration: 2.0865726
+      duration: 2.0861306
       messages: 
       output: 
       stacktrace: 
@@ -410,7 +418,7 @@ MonoBehaviour:
       name: CheckForSpawningNegativeX
       fullName: Tests.TestSuite.CheckForSpawningNegativeX
       resultStatus: 1
-      duration: 2.088528
+      duration: 2.086767
       messages: 
       output: 
       stacktrace: 
@@ -425,7 +433,7 @@ MonoBehaviour:
       name: CheckForSpawningNegativeY
       fullName: Tests.TestSuite.CheckForSpawningNegativeY
       resultStatus: 1
-      duration: 2.0899682
+      duration: 2.0867467
       messages: 
       output: 
       stacktrace: 
@@ -440,7 +448,7 @@ MonoBehaviour:
       name: CheckForSpawningPositiveX
       fullName: Tests.TestSuite.CheckForSpawningPositiveX
       resultStatus: 1
-      duration: 2.0867758
+      duration: 2.087068
       messages: 
       output: 
       stacktrace: 
@@ -455,7 +463,7 @@ MonoBehaviour:
       name: CheckForSpawningPositiveY
       fullName: Tests.TestSuite.CheckForSpawningPositiveY
       resultStatus: 1
-      duration: 2.086621
+      duration: 2.0873013
       messages: 
       output: 
       stacktrace: 
@@ -470,12 +478,15 @@ MonoBehaviour:
       name: CheckPointsIncrease
       fullName: Tests.TestSuite.CheckPointsIncrease
       resultStatus: 2
-      duration: 2.0870564
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      duration: 2.0860102
+      messages: 'UnityEngine.MissingReferenceException : The object of type ''GameObject''
+        has been destroyed but you are still trying to access it.
+
+        Your script should either check if it is null or you should not destroy the
+        object.'
       output: 
-      stacktrace: "  at Tests.TestSuite+<CheckPointsIncrease>d__12.MoveNext () [0x00094]
-        in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:139
+      stacktrace: "  at (wrapper managed-to-native) UnityEngine.GameObject.get_transform(UnityEngine.GameObject)\r\n
+        \ at Tests.TestSuite+<CheckPointsIncrease>d__12.MoveNext () [0x00094] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:139
         \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
         () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
       notRunnable: 0
@@ -489,7 +500,7 @@ MonoBehaviour:
       name: MainMenuCheck
       fullName: Tests.TestSuite.MainMenuCheck
       resultStatus: 1
-      duration: 2.0858414
+      duration: 2.08561
       messages: 
       output: 
       stacktrace: 
@@ -500,12 +511,27 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Tests][Tests.TestSuite][suite]'
-    m_ResultText: MainMenuCheck (2.086s)
+    - id: '[Tests][Tests.TestSuite.RestartCheck]'
+      name: RestartCheck
+      fullName: Tests.TestSuite.RestartCheck
+      resultStatus: 1
+      duration: 2.0867858
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    m_ResultText: RestartCheck (2.087s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5ecedc35
-      m_LastClickedID: 903663198
+      m_SelectedIDs: 3552d96f
+      m_LastClickedID: 1876513333
       m_ExpandedIDs: fc24e9843223a8c3d26cb0e23beef202ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -924,9 +950,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4e220000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6205ffff8005ffff8819ffff001cffff7e1fffff9c1fffff7c21ffff3022ffffe423ffff0224ffff3433ffffb034ffffce34ffffd841ffff6843ffff8643ffffa852ffff8854ffffa654ffff7e68ffff84b5ffffaeb5ffffeeb5fffffcb5ffff58b6ffff38b8ffff56b8ffffc4c7ffff52c9ffff70c9ffffa8d8ffff36daffff54daffff16e9ffff00ecffff02ecffff20ecffffb8f9ffffd6fbffff
+      m_ExpandedIDs: d2b0ffffd4b0ffffb2b2ffffb4b2ffff78c8ffff7ac8ffff6ce2ffff6ee2ffff8ce2ffff52f9ffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -988,7 +1014,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ScriptsLvl1
+    - Assets/Scenes
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -1000,7 +1026,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f8280000
     m_LastClickedID: 10488
-    m_ExpandedIDs: 000000000c280000162800001a2800003628000098280000dc280000f8280000342900008a290000e4290000842a0000
+    m_ExpandedIDs: 000000000e28000018280000382800009a280000de280000fa280000e6290000862a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1028,21 +1054,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000000c280000162800003628000098280000dc280000f8280000e4290000842a0000
+    m_ExpandedIDs: ffffffff000000000e280000182800001c280000382800009a280000de280000fa2800008a290000e6290000862a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: MainMenu
-      m_OriginalName: MainMenu
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9968
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
