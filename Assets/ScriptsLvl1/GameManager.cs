@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static bool IsRestartTrue = false;
+    public static bool IsGameOver = false;
     public static int Score;
     public static int Hp;
 
@@ -19,9 +21,12 @@ public class GameManager : MonoBehaviour
 
     public bool pause = false;
     public bool GameIsPaused = false;
+
     // Start is called before the first frame update
     void Start()
     {
+        IsRestartTrue = false;
+        pauseMenuUI.SetActive(false);
         gameOverUI.SetActive(false);
         nextLevelUI.SetActive(false);
         Time.timeScale = 1;
@@ -32,8 +37,26 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameIsPaused = !GameIsPaused;
+        }
+
+        if(GameIsPaused)
+        {
+            Pause();
+        }
+
+        else
+        {
+            Resume();
+        }
+
+        ScoreCheck();
+        healthCheck();
         Updatehealth();
         Updatescore();
+
     }
 
     public void Updatehealth()
@@ -48,23 +71,24 @@ public class GameManager : MonoBehaviour
 
     public void ScoreCheck()
     {
-        if(Score >= 15)
+        if(Score == 15)
         {
-            StartCoroutine(Transistion());
             Time.timeScale = 0;
             nextLevelUI.SetActive(true);
-            SceneManager.LoadScene("GameSceneLvl2");
         }
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene("GameSceneLvl2");
     }
 
     public void healthCheck()
     {
-        if(Hp <= 0)
+        if(Hp == 0)
         {
-            StartCoroutine(Transistion());
             Time.timeScale = 0;
             gameOverUI.SetActive(true);
-            SceneManager.LoadScene(sceneName);
         }
     }
 
@@ -84,12 +108,29 @@ public class GameManager : MonoBehaviour
         GameIsPaused = true;
     }
 
+    public void Menu()
+    {
+        pause = false;
+        GameIsPaused = false;   
+        gameOverUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameManager.Score = 0;
+        GameManager.Hp = 20;
+        StartCoroutine(Transistion());
+    }
 
     IEnumerator Transistion()
     {
         transAni.SetTrigger("end");
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("MainMenu");
     }
+    
+    public void Restart()
+    {
+        IsRestartTrue = true;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 
 }

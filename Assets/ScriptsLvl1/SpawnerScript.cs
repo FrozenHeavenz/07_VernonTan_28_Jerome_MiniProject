@@ -22,6 +22,11 @@ public class SpawnerScript : MonoBehaviour
 
     public float spawnRate;
 
+    public int EnemyCountPosX;
+    public int EnemyCountNegX;
+    public int EnemyCountPosY;
+    public int EnemyCountNegY;
+
     public GameObject[] Enemies;
     
     public GameObject SelectedEnemy;
@@ -45,7 +50,7 @@ public class SpawnerScript : MonoBehaviour
 
     }
 
-    public void PositiveX()
+    public GameObject PositiveX()
     {
         SRandX = Random.Range(0, 4);
         ERand = Random.Range(0, 3);
@@ -53,11 +58,12 @@ public class SpawnerScript : MonoBehaviour
         SelectedEnemy = Enemies[ERand];
         SelectedSpawnerX = SpawnerX[SRandX];
 
-        Instantiate(SelectedEnemy, SelectedSpawnerX.transform.position, Quaternion.identity);
-
+        GameObject tempGameObject = Instantiate(SelectedEnemy, SelectedSpawnerX.transform.position, Quaternion.identity);
+        EnemyCountPosX += 1;
+        return tempGameObject;
     }
 
-    public void NegativeX()
+    public GameObject NegativeX()
     {
         SRandNegX = Random.Range(0, 4);
         ERand = Random.Range(0, 3);
@@ -65,10 +71,12 @@ public class SpawnerScript : MonoBehaviour
         SelectedEnemy = Enemies[ERand];
         SelectedSpawnerNegX = SpawnerNegX[SRandNegX];
 
-        Instantiate(SelectedEnemy, SelectedSpawnerNegX.transform.position, Quaternion.identity);
+        GameObject tempGameObject = Instantiate(SelectedEnemy, SelectedSpawnerNegX.transform.position, Quaternion.identity);
+        EnemyCountNegX += 1;
+        return tempGameObject;
     }
 
-    public void PositiveY()
+    public GameObject PositiveY()
     {
         SRandY = Random.Range(0, 9);
         ERand = Random.Range(0, 3);
@@ -76,10 +84,12 @@ public class SpawnerScript : MonoBehaviour
         SelectedEnemy = Enemies[ERand];
         SelectedSpawnerY = SpawnerY[SRandY];
 
-        Instantiate(SelectedEnemy, SelectedSpawnerY.transform.position, Quaternion.identity);
+        GameObject tempGameObject = Instantiate(SelectedEnemy, SelectedSpawnerY.transform.position, Quaternion.identity);
+        EnemyCountPosY += 1;
+        return tempGameObject;
     }
 
-    public void NegativeY()
+    public GameObject NegativeY()
     {
         SRandNegY = Random.Range(0, 9);
         ERand = Random.Range(0, 3);
@@ -87,6 +97,8 @@ public class SpawnerScript : MonoBehaviour
         SelectedEnemy = Enemies[ERand];
         SelectedSpawnerNegY = SpawnerNegY[SRandNegY];
 
-        Instantiate(SelectedEnemy, SelectedSpawnerNegY.transform.position, Quaternion.identity);
+        GameObject tempGameObject = Instantiate(SelectedEnemy, SelectedSpawnerNegY.transform.position, Quaternion.identity);
+        EnemyCountNegY += 1;
+        return tempGameObject;
     }
 }

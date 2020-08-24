@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 448}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 132
+  controlID: 62
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,12 +136,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1377
+    width: 1479
     height: 1102
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 30
+  controlID: 63
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,17 +159,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1377
-    height: 566
+    width: 1479
+    height: 612
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
   - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 3
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,15 +187,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 566
-    width: 1377
-    height: 536
+    y: 612
+    width: 1479
+    height: 490
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 13}
+  - {fileID: 18}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &9
@@ -212,15 +213,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1377
+    x: 1479
     y: 0
-    width: 233
+    width: 204
     height: 1102
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -238,15 +239,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1610
+    x: 1683
     y: 0
-    width: 267
+    width: 234
     height: 1102
   m_MinSize: {x: 234, y: 274}
   m_MaxSize: {x: 10004, y: 10024}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &11
@@ -264,18 +265,349 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1877
+    x: 1917
     y: 0
-    width: 317
+    width: 277
     height: 1102
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.571434
+    width: 1477
+    height: 592
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: '[07_VernonTan_28_Jerome_MiniProject][suite]'
+      name: 07_VernonTan_28_Jerome_MiniProject
+      fullName: 07_VernonTan_28_Jerome_MiniProject
+      resultStatus: 2
+      duration: 21.294682
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    - id: '[C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 2
+      duration: 21.229603
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: '[07_VernonTan_28_Jerome_MiniProject][suite]'
+    - id: '[Tests][suite]'
+      name: Tests
+      fullName: Tests
+      resultStatus: 2
+      duration: 21.195213
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: '[C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: '[Tests][Tests.TestSuite][suite]'
+      name: TestSuite
+      fullName: Tests.TestSuite
+      resultStatus: 2
+      duration: 21.158163
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: '[Tests][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForBlueEnemyCollision]'
+      name: CheckForBlueEnemyCollision
+      fullName: Tests.TestSuite.CheckForBlueEnemyCollision
+      resultStatus: 2
+      duration: 2.338778
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Tests.TestSuite+<CheckForBlueEnemyCollision>d__10.MoveNext
+        () [0x00080] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:105
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForGreenEnemyCollision]'
+      name: CheckForGreenEnemyCollision
+      fullName: Tests.TestSuite.CheckForGreenEnemyCollision
+      resultStatus: 2
+      duration: 2.0869973
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Tests.TestSuite+<CheckForGreenEnemyCollision>d__11.MoveNext
+        () [0x00080] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:121
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForRedEnemyCollision]'
+      name: CheckForRedEnemyCollision
+      fullName: Tests.TestSuite.CheckForRedEnemyCollision
+      resultStatus: 1
+      duration: 2.0861306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForSpawningNegativeX]'
+      name: CheckForSpawningNegativeX
+      fullName: Tests.TestSuite.CheckForSpawningNegativeX
+      resultStatus: 1
+      duration: 2.086767
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForSpawningNegativeY]'
+      name: CheckForSpawningNegativeY
+      fullName: Tests.TestSuite.CheckForSpawningNegativeY
+      resultStatus: 1
+      duration: 2.0867467
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForSpawningPositiveX]'
+      name: CheckForSpawningPositiveX
+      fullName: Tests.TestSuite.CheckForSpawningPositiveX
+      resultStatus: 1
+      duration: 2.087068
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckForSpawningPositiveY]'
+      name: CheckForSpawningPositiveY
+      fullName: Tests.TestSuite.CheckForSpawningPositiveY
+      resultStatus: 1
+      duration: 2.0873013
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.CheckPointsIncrease]'
+      name: CheckPointsIncrease
+      fullName: Tests.TestSuite.CheckPointsIncrease
+      resultStatus: 2
+      duration: 2.0860102
+      messages: 'UnityEngine.MissingReferenceException : The object of type ''GameObject''
+        has been destroyed but you are still trying to access it.
+
+        Your script should either check if it is null or you should not destroy the
+        object.'
+      output: 
+      stacktrace: "  at (wrapper managed-to-native) UnityEngine.GameObject.get_transform(UnityEngine.GameObject)\r\n
+        \ at Tests.TestSuite+<CheckPointsIncrease>d__12.MoveNext () [0x00094] in C:\\Users\\student\\Desktop\\Vernon\\07_VernonTan_28_Jerome_MiniProject_GitCloud\\07_VernonTan_28_Jerome_MiniProject\\Assets\\Tests\\TestSuite.cs:139
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.MainMenuCheck]'
+      name: MainMenuCheck
+      fullName: Tests.TestSuite.MainMenuCheck
+      resultStatus: 1
+      duration: 2.08561
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    - id: '[Tests][Tests.TestSuite.RestartCheck]'
+      name: RestartCheck
+      fullName: Tests.TestSuite.RestartCheck
+      resultStatus: 1
+      duration: 2.0867858
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.TestSuite][suite]'
+    m_ResultText: RestartCheck (2.087s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 3552d96f
+      m_LastClickedID: 1876513333
+      m_ExpandedIDs: fc24e9843223a8c3d26cb0e23beef202ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: '[07_VernonTan_28_Jerome_MiniProject][suite]'
+      name: 07_VernonTan_28_Jerome_MiniProject
+      fullName: 07_VernonTan_28_Jerome_MiniProject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,16 +635,16 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 1107985761423563536, guid: bf668e7cfabe3cd4888d6923a51bad28, type: 2}
+    - {fileID: 1107225049661742070, guid: feb8681397b08104ca29c80d748b4074, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.6247149
+    - e00: 1
       e01: 0
       e02: 0
-      e03: 144.06645
+      e03: 0
       e10: 0
-      e11: 0.6247149
+      e11: 1
       e12: 0
-      e13: 98.348236
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -322,10 +654,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: bf668e7cfabe3cd4888d6923a51bad28,
+  m_AnimatorController: {fileID: 9100000, guid: feb8681397b08104ca29c80d748b4074,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107985761423563536, guid: bf668e7cfabe3cd4888d6923a51bad28,
+  - m_Target: {fileID: 1107225049661742070, guid: feb8681397b08104ca29c80d748b4074,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -336,10 +668,10 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 0
+  m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -367,8 +699,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 18372
---- !u!114 &14
+  m_LastSelectedObjectID: 11670
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -389,9 +721,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1877.143
+    x: 1917.143
     y: 72.571434
-    width: 315
+    width: 275
     height: 1082
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -399,11 +731,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: -160
+    m_CachedPref: 454
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -426,18 +758,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.571434
-    width: 1375
-    height: 546
+    width: 1477
+    height: 592
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 0f844558d5ccf674e8a0adb4b32ad1a3
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1183.1342, y: 563.2175, z: -33.888588}
+    m_Target: {x: 197.88005, y: 826.43994, z: 0}
     speed: 2
-    m_Value: {x: -1183.1342, y: 563.2175, z: -33.888588}
+    m_Value: {x: 197.88005, y: 826.43994, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -457,33 +789,33 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.019804606, y: -0.020090263, z: 0.00039808417, w: 0.99960196}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.019804606, y: -0.020090263, z: 0.00039808417, w: 0.99960196}
   m_Size:
-    m_Target: 3482.892
+    m_Target: 33421.703
     speed: 2
-    m_Value: 3482.892
+    m_Value: 33421.703
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.07031933, y: -0.8948021, z: 0.15204223, w: 0.41384482}
+  m_LastSceneViewRotation: {x: 0.019804606, y: -0.020090263, z: 0.00039808417, w: 0.99960196}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -506,10 +838,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.571434
-    width: 1483
-    height: 858
+    width: 1375
+    height: 546
   m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -531,9 +863,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 638.28577
-    width: 1375
-    height: 516
+    y: 684.5715
+    width: 1477
+    height: 470
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -545,10 +877,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -443.4286
-    m_HBaseRangeMax: 443.4286
-    m_VBaseRangeMin: -249.50002
-    m_VBaseRangeMax: 249.50002
+    m_HBaseRangeMin: -402.57144
+    m_HBaseRangeMax: 402.57144
+    m_VBaseRangeMin: -226.50002
+    m_VBaseRangeMax: 226.50002
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -566,30 +898,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1375
-      height: 499
+      width: 1477
+      height: 453
     m_Scale: {x: 0.99999994, y: 0.99999994}
-    m_Translation: {x: 687.5, y: 249.5}
+    m_Translation: {x: 738.5, y: 226.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -687.50006
-      y: -249.50002
-      width: 1375.0001
-      height: 499.00003
+      x: -738.50006
+      y: -226.50002
+      width: 1477.0001
+      height: 453.00003
     m_MinimalGUI: 1
   m_defaultScale: 0.99999994
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2406.25, y: 903}
+  m_LastWindowPixelSize: {x: 2584.75, y: 822.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -610,9 +942,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1377.143
+    x: 1478.8572
     y: 72.571434
-    width: 229
+    width: 200
     height: 1082
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -620,7 +952,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6ac6ffff24ceffff06cfffff92d5ffff80d6ffff3ad7ffff90d9ffff2ee3ffff5ce3ffff8ee3ffffa6f5ffff9cfaffffdc2b00009a330000d03300003239000070390000743c0000c23e0000c4470000
+      m_ExpandedIDs: d2b0ffffd4b0ffffb2b2ffffb4b2ffff78c8ffff7ac8ffff6ce2ffff6ee2ffff8ce2ffff52f9ffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -644,7 +976,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 308f2f51bee91534e91b113e9242f459
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -665,9 +997,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1610.2858
+    x: 1682.8572
     y: 72.571434
-    width: 263
+    width: 230
     height: 1082
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -682,19 +1014,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ScriptsLvl1
+    - Assets/Scenes
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\student\Desktop\03_Braylon_PT02\GIT_PA02\07_VernonTan_MiniProject
+  m_LastProjectPath: C:\Users\student\Desktop\Vernon\07_VernonTan_28_Jerome_MiniProject_GitCloud\07_VernonTan_28_Jerome_MiniProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f8280000
     m_LastClickedID: 10488
-    m_ExpandedIDs: 00000000b2280000bc280000da2800003029000084290000e4290000fe290000502a0000aa2a0000
+    m_ExpandedIDs: 000000000e28000018280000382800009a280000de280000fa280000e6290000862a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,21 +1054,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b2280000bc280000da2800003029000084290000e4290000fe290000502a0000aa2a0000362c00004e2c0000
+    m_ExpandedIDs: ffffffff000000000e280000182800001c280000382800009a280000de280000fa2800008a290000e6290000862a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EnemyR
-      m_OriginalName: EnemyR
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10362
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 

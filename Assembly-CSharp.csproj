@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1EAFCE80-C7EC-8778-78B9-4868B182EF69}</ProjectGuid>
+    <ProjectGuid>{FD0329F3-8695-7502-1E22-72FDC164B3F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,28 +62,30 @@
   <ItemGroup>
     <Compile Include="Assets\ScriptsLvl1\BoundaryScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\CameraScript.cs" />
+    <Compile Include="Assets\ScriptsLvl1\DestroyExplosion.cs" />
     <Compile Include="Assets\ScriptsLvl1\EnemyScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\EnemyScriptLvl2.cs" />
     <Compile Include="Assets\ScriptsLvl1\GameManager.cs" />
+    <Compile Include="Assets\ScriptsLvl1\MainMenu.cs" />
     <Compile Include="Assets\ScriptsLvl1\ParallaxScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\PlayerScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\PointScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\PointSpawnerScript.cs" />
     <Compile Include="Assets\ScriptsLvl1\SpawnerScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -290,13 +292,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/student/Desktop/03_Braylon_PT02/GIT_PA02/07_VernonTan_MiniProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/student/Desktop/Vernon/07_VernonTan_28_Jerome_MiniProject_GitCloud/07_VernonTan_28_Jerome_MiniProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
